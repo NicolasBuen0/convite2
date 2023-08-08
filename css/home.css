@@ -79,25 +79,29 @@
     text-align: center;
     padding-bottom: 20px;
    
+   
 }
 
 .abrir{
     display: flex;
     justify-content: end; 
 
+
 }
-.abrir .img_casal{
-    position: absolute;
-    top: 0;
-    width: 100%;
-   
+.img-casal-fundo{
+    width: 800px;
+    height: 100%;
+    background-image: url("../img/casal.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 .nomes_button{
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
-    
 }
 
 
@@ -178,4 +182,32 @@
     display: flex;
     flex-direction: column;
     font-weight: 700;
+}
+
+
+
+.slide_casal{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.slide_casal img{
+display: block;
+width: 100%;
+}
+
+.vestimenta{
+    text-align: center;
+    max-width: 40ch;
+}
+
+.segundo_p, .terceiro_p{
+    margin-top: 40px;
+    
+}
+
+
+
+.hotel{
+    padding-bottom: 50px!important;
 }
